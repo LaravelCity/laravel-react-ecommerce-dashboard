@@ -81,3 +81,29 @@ Happy hacking!
 D:\xampp\htdocs>cd ecom-dashboard
 
 D:\xampp\htdocs\ecom-dashboard>code .
+
+D:\xampp\htdocs\ecom-dashboard>npm start
+
+> ecom-dashboard@0.1.0 start
+> react-scripts start       
+
+(node:19788) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLStarting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app pr
+Compiled successfully!
+
+You can now view ecom-dashboard in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.21.208.1:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
